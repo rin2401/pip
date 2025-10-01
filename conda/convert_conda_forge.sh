@@ -7,7 +7,7 @@ conda config --remove channels defaults
 conda config --add channels conda-forge
 conda config --add channels nodefaults
 
-conda config --env --set channel_priority strict
+conda config --set channel_priority strict
 
 
 conda install -c conda-forge python=<version>
