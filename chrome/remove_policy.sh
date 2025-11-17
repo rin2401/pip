@@ -1,0 +1,2 @@
+defaults delete com.google.Chrome LocalNetworkAccessAllowedForUrls
+defaults delete com.microsoft.Edge LocalNetworkAccessAllowedForUrls
