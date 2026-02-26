@@ -7,4 +7,4 @@ pip install vllm==0.8.5.post1
 # PY="cp312"
 PY="cp311"
 
-pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-$PY-$PY-linux_x86_64.whl  --no-build-isolation
+pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.6cxx11abiFALSE-cp311-cp311-linux_x86_64.whl  --no-build-isolation
