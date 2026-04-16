@@ -8,4 +8,8 @@ pip install vllm==0.10.0
 # PY="cp312"
 PY="cp311"
 
-pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiFALSE-$PY-$PY-linux_x86_64.whl  --no-build-isolation
+pip install --no-build-isolation https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.7cxx11abiFALSE-cp311-cp311-linux_x86_64.whl  
+
+# mamba
+pip install --no-build-isolation https://github.com/state-spaces/mamba/releases/download/v2.3.1/mamba_ssm-2.3.1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl
+pip install --no-build-isolation https://github.com/Dao-AILab/causal-conv1d/releases/download/v1.6.1.post4/causal_conv1d-1.6.1+cu12torch2.7cxx11abiTRUE-cp311-cp311-linux_x86_64.whl
